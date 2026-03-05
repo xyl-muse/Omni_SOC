@@ -1,0 +1,8 @@
+# .gitignore
+.env
+__pycache__/
+*.pyc
+.vscode/
+# 忽略虚拟环境
+venv/
+.venv/
