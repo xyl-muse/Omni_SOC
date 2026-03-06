@@ -1,7 +1,7 @@
 # app/core/nodes.py
 import json
-from state import OmniState
-from prompts import TRIAGE_SYSTEM_PROMPT
+from .state import OmniState
+from .prompts import TRIAGE_SYSTEM_PROMPT
 
 # 注意：现阶段我们先用“模拟 AI”来调通逻辑，Day 3 再接入真正的 OpenAI API
 def triage_node(state: OmniState):
