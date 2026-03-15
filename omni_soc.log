@@ -11,3 +11,57 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-03-15 15:27:25,539 - app.core.utils - INFO - [Archive] 开始执行
 2026-03-15 15:27:25,539 - app.core.utils - INFO - 归档完成，事件ID: OMNI--7190959368991864682
 2026-03-15 15:27:25,539 - app.core.utils - INFO - [Archive] 执行成功
+2026-03-15 15:35:14,910 - app.core.utils - INFO - 风险评分计算完成: 最终得分98.2, 置信度0.8
+2026-03-15 15:35:14,911 - app.core.utils - INFO - 风险评分计算完成: 最终得分36.7, 置信度0.8
+2026-03-15 15:35:14,911 - app.core.utils - INFO - 风险评分计算完成: 最终得分58.7, 置信度0.8
+2026-03-15 15:35:14,911 - app.core.utils - INFO - 检测到误报特征: 渗透测试|penetration test|安全扫描
+2026-03-15 15:35:14,911 - app.core.utils - INFO - 风险评分计算完成: 最终得分29.7, 置信度0.7
+2026-03-15 15:35:14,911 - app.core.utils - INFO - 决策: 综合评分85.0极高，判断为真实威胁
+2026-03-15 15:35:14,911 - app.core.utils - INFO - 决策: 误报风险极高，判断为误报
+2026-03-15 15:35:14,912 - app.core.utils - INFO - 决策: 综合评分65.0中等，参考LLM决策(True)
+2026-03-15 15:35:14,912 - app.core.utils - INFO - 风险评分计算完成: 最终得分98.2, 置信度0.8
+2026-03-15 15:35:14,912 - app.core.utils - INFO - 风险评分计算完成: 最终得分36.7, 置信度0.8
+2026-03-15 15:35:25,445 - app.core.utils - INFO - 风险评分计算完成: 最终得分98.2, 置信度0.8
+2026-03-15 15:35:25,445 - app.core.utils - INFO - 风险评分计算完成: 最终得分36.7, 置信度0.8
+2026-03-15 15:35:25,445 - app.core.utils - INFO - 风险评分计算完成: 最终得分58.7, 置信度0.8
+2026-03-15 15:35:25,445 - app.core.utils - INFO - 检测到误报特征: 渗透测试|penetration test|安全扫描
+2026-03-15 15:35:25,445 - app.core.utils - INFO - 风险评分计算完成: 最终得分29.7, 置信度0.7
+2026-03-15 15:35:25,445 - app.core.utils - INFO - 决策: 综合评分85.0极高，判断为真实威胁
+2026-03-15 15:35:25,445 - app.core.utils - INFO - 决策: 误报风险极高，判断为误报
+2026-03-15 15:35:25,445 - app.core.utils - INFO - 决策: 综合评分65.0中等，参考LLM决策(True)
+2026-03-15 15:35:25,446 - app.core.utils - INFO - 风险评分计算完成: 最终得分98.2, 置信度0.8
+2026-03-15 15:35:25,446 - app.core.utils - INFO - 风险评分计算完成: 最终得分36.7, 置信度0.8
+2026-03-15 15:40:49,779 - app.core.utils - ERROR - 证据关联分析异常: EvidenceCorrelationEngine._build_attack_chain() takes 3 positional arguments but 4 were given
+2026-03-15 15:40:49,780 - app.core.utils - ERROR - 证据关联分析异常: EvidenceCorrelationEngine._build_attack_chain() takes 3 positional arguments but 4 were given
+2026-03-15 15:40:49,780 - app.core.utils - ERROR - 证据关联分析异常: EvidenceCorrelationEngine._build_attack_chain() takes 3 positional arguments but 4 were given
+2026-03-15 15:40:49,780 - app.core.utils - ERROR - 证据关联分析异常: EvidenceCorrelationEngine._build_attack_chain() takes 3 positional arguments but 4 were given
+2026-03-15 15:40:49,781 - app.core.utils - ERROR - 证据关联分析异常: EvidenceCorrelationEngine._build_attack_chain() takes 3 positional arguments but 4 were given
+2026-03-15 15:40:49,781 - app.core.utils - ERROR - 证据关联分析异常: EvidenceCorrelationEngine._build_attack_chain() takes 3 positional arguments but 4 were given
+2026-03-15 15:40:49,781 - app.core.utils - INFO - [Hunting] 开始执行
+2026-03-15 15:40:49,781 - app.core.utils - ERROR - 证据关联分析异常: EvidenceCorrelationEngine._build_attack_chain() takes 3 positional arguments but 4 were given
+2026-03-15 15:40:49,781 - app.core.utils - INFO - 深度溯源完成: 总证据0条, 高置信度0条, 整体置信度0.50
+2026-03-15 15:40:49,781 - app.core.utils - INFO - [Hunting] 执行成功
+2026-03-15 16:34:58,077 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:34:58,078 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:34:58,078 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:34:58,078 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:34:58,078 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:34:58,078 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:34:58,080 - app.core.utils - INFO - [Hunting] 开始执行
+2026-03-15 16:34:58,080 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:34:58,080 - app.core.utils - INFO - 深度溯源完成: 总证据0条, 高置信度0条, 整体置信度0.50
+2026-03-15 16:34:58,080 - app.core.utils - INFO - [Hunting] 执行成功
+2026-03-15 16:35:21,045 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:35:21,045 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:35:21,046 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:35:21,046 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:35:21,046 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:35:21,047 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:35:21,047 - app.core.utils - INFO - [Hunting] 开始执行
+2026-03-15 16:35:21,047 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:35:21,047 - app.core.utils - INFO - 深度溯源完成: 总证据0条, 高置信度0条, 整体置信度0.50
+2026-03-15 16:35:21,047 - app.core.utils - INFO - [Hunting] 执行成功
+2026-03-15 16:35:43,421 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:36:06,879 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:36:06,879 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'
+2026-03-15 16:36:06,879 - app.core.utils - ERROR - 证据关联分析异常: string indices must be integers, not 'str'

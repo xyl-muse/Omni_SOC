@@ -4,7 +4,10 @@
       "Bash(e:/Study/AI/Omni_SOC/.venv/Scripts/pip.exe install:*)",
       "Bash(e:/Study/AI/Omni_SOC/.venv/Scripts/python.exe e:/Study/AI/Omni_SOC/main.py)",
       "Bash(ls -la *.md *.py 2>/dev/null | grep -E \"\\(TROUBLESHOOTING|diagnose\\)\")",
-      "Bash(python main.py)"
+      "Bash(python main.py)",
+      "Bash(python test_enhanced_triage.py)",
+      "Bash(python test_enhanced_hunting_simple.py)",
+      "Bash(git add:*)"
     ]
   }
 }
