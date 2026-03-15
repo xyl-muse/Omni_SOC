@@ -19,8 +19,7 @@ def run_test():
         "description": "通过命令查询网络连接状态;通过多个命令探测主机信息",
     }
 
-    # 3. 关键修复：创建OmniState实例（而非普通字典）
-    # 假设OmniState类支持通过关键字参数初始化（SOC项目通用设计）
+    # 3. 创建OmniState实例，支持新的四大节点流程
     initial_state = OmniState(
         raw_alert=mock_alert,
         evidence_pool=[],
@@ -28,7 +27,8 @@ def run_test():
         risk_score=0,
         status="start",
         next_action=None,
-        final_report=None
+        final_report=None,
+        response_mode="hybrid"  # 默认使用混合处置模式
     )
 
     print("--- Omni_SOC 系统启动 ---")
