@@ -1,0 +1,13 @@
+2026-03-15 15:27:20,651 - app.core.utils - INFO - [Triage] 开始执行
+2026-03-15 15:27:21,363 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-15 15:27:21,364 - app.core.utils - WARNING - API限流错误，第1次重试，等待1.0秒...
+2026-03-15 15:27:22,964 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-15 15:27:22,965 - app.core.utils - WARNING - API限流错误，第2次重试，等待2.0秒...
+2026-03-15 15:27:25,532 - httpx - INFO - HTTP Request: POST https://open.bigmodel.cn/api/paas/v4/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-03-15 15:27:25,535 - app.core.utils - ERROR - API限流错误，达到最大重试次数3
+2026-03-15 15:27:25,535 - app.core.utils - ERROR - 研判节点执行异常: Client error '429 Too Many Requests' for url 'https://open.bigmodel.cn/api/paas/v4/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2026-03-15 15:27:25,538 - app.core.utils - INFO - [Triage] 执行成功
+2026-03-15 15:27:25,539 - app.core.utils - INFO - [Archive] 开始执行
+2026-03-15 15:27:25,539 - app.core.utils - INFO - 归档完成，事件ID: OMNI--7190959368991864682
+2026-03-15 15:27:25,539 - app.core.utils - INFO - [Archive] 执行成功

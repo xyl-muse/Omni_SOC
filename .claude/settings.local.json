@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(e:/Study/AI/Omni_SOC/.venv/Scripts/pip.exe install:*)",
+      "Bash(e:/Study/AI/Omni_SOC/.venv/Scripts/python.exe e:/Study/AI/Omni_SOC/main.py)",
+      "Bash(ls -la *.md *.py 2>/dev/null | grep -E \"\\(TROUBLESHOOTING|diagnose\\)\")",
+      "Bash(python main.py)"
+    ]
+  }
+}
